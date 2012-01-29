@@ -1,7 +1,6 @@
 package org.novoj.json.jsonSmart
 
 import net.minidev.json.JSONValue
-import org.apache.commons.lang.NotImplementedException
 import org.novoj.json.JsonIO
 import org.novoj.json.model.PhotoAlbum
 
@@ -20,7 +19,7 @@ class JsonSmartIO implements JsonIO {
 	}
 
 	PhotoAlbum deserializePhotoAlbum(String json) {
-		throw new NotImplementedException("Available in version 2 which is beta.");
+		return JSONValue.parse(json, PhotoAlbum.class)
 	}
 
 }

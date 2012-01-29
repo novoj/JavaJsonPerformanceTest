@@ -63,7 +63,9 @@ Written ${Math.round(totalByteCount / 1000)} KB, ${Math.round(totalByteCount/ITE
 			Long startTime = System.currentTimeMillis()
 			PhotoAlbum album = deserialize(json)
 			Long endTime = System.currentTimeMillis()
+			assertNotNull("Deserialized album is null!", album)
 			assertEquals("Generic album ${i}", album.name)
+			assertEquals(PHOTO_COUNT, album.getPhotos().size())
 			if (i > WARM_UP_ITERATION_COUNT) {
 				timeElapsed += endTime - startTime
 				totalByteCount += json.getBytes("utf-8").length

@@ -11,6 +11,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="json-0.21" level="project" />
+    <orderEntry type="library" name="asm-3.3.1" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-all:1.8.2" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.1" level="project" />
     <orderEntry type="library" name="Maven: net.sf.json-lib:json-lib:jdk15:2.4" level="project" />
@@ -19,9 +21,19 @@
     <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.5" level="project" />
     <orderEntry type="library" name="Maven: net.sf.ezmorph:ezmorph:1.0.6" level="project" />
-    <orderEntry type="library" name="Maven: net.minidev:json-smart:1.0.9-1" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-lgpl:1.9.4" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-lgpl:1.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.thoughtworks.xstream:xstream:1.4.2" level="project" />
+    <orderEntry type="library" name="Maven: xmlpull:xmlpull:1.1.3.1" level="project" />
+    <orderEntry type="library" name="Maven: xpp3:xpp3_min:1.1.4c" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jettison:jettison:1.3.1" level="project" />
+    <orderEntry type="library" name="Maven: stax:stax-api:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.flexjson:flexjson:2.1" level="project" />
+    <orderEntry type="library" name="Maven: com.dyuproject.protostuff:protostuff-json:1.0.4" level="project" />
+    <orderEntry type="library" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.7.9" level="project" />
+    <orderEntry type="library" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.4" level="project" />
+    <orderEntry type="library" name="Maven: com.dyuproject.protostuff:protostuff-collectionschema:1.0.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.7" level="project" />
   </component>
 </module>
