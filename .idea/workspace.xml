@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a38f1d0a-db0d-4bb2-83af-b3e60ff20fae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/asm-3.3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/json-0.21-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/json-0.21.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/json-smart-2.0-beta2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/Photo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonMarshaller/DateMarshaller.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonMarshaller/DateMarshaller.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/Photo.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbum.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/User.groovy" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/JsonIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/JsonIO.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/PhotoAlbumFactory.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbumFactory.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/flexJson/FlexJsonIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/flexJson/FlexJsonIO.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/gson/GsonIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/gson/GsonIO.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/jackson/JacksonIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jackson/JacksonIO.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonLib/DateJsonBeanProcessor.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonLib/DateJsonBeanProcessor.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonLib/DateJsonValueProcessor.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonLib/DateJsonValueProcessor.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonLib/JsonLibIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonLib/JsonLibIO.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonMarshaller/JsonMarshallerIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonMarshaller/JsonMarshallerIO.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonSmart/JsonSmartIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonSmart/JsonSmartIO.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/protostuff/ProtostuffIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/protostuff/ProtostuffIO.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/xstream/XStreamIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/xstream/XStreamIO.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/AbstractPerformanceTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/AbstractPerformanceTest.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/FlexJsonIOTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/FlexJsonIOTest.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/GsonIOTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/GsonIOTest.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/JacksonIOTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/JacksonIOTest.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/JsonLibIOTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/JsonLibIOTest.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/JsonMarshallerIOTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/JsonMarshallerIOTest.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/JsonSmartIOTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/JsonSmartIOTest.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/ProtostuffIOTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/ProtostuffIOTest.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/XStreamIOTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/XStreamIOTest.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaJsonPerformanceTest.iws" />
@@ -97,10 +65,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JsonSmartIO.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="JsonSmartIO.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonSmart/JsonSmartIO.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="39" selection-start="416" selection-end="416" vertical-scroll-proportion="0.254717">
+            <state line="15" column="51" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/User.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/Photo.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbum.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonSimple/JsonSimpleIO.groovy" />
@@ -133,10 +109,11 @@
         <option value="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/AbstractPerformanceTest.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonMarshaller/DateMarshaller.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/flexJson/FlexJsonIO.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonSmart/JsonSmartIO.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbum.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/Photo.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonSmart/JsonSmartIO.groovy" />
+        <option value="$PROJECT_DIR$/readme.txt" />
       </list>
     </option>
   </component>
@@ -163,10 +140,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
     <option name="y" value="30" />
-    <option name="width" value="1682" />
-    <option name="height" value="997" />
+    <option name="width" value="1680" />
+    <option name="height" value="996" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -194,6 +170,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -510,21 +487,20 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="SDKs" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="222" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="229" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="236" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="236" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="236" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="910" />
@@ -539,8 +515,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
@@ -548,8 +524,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -851,12 +827,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="30" width="1682" height="997" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="30" width="1680" height="996" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.67124856" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -865,10 +842,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6701031" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24877451" sideWeight="0.4100802" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24846625" sideWeight="0.4100802" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5899198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -934,11 +910,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/JsonMarshallerIOTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="59" selection-start="419" selection-end="419" vertical-scroll-proportion="0.23349057" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbumFactory.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -1011,7 +982,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonSmart/JsonSmartIO.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="416" selection-end="416" vertical-scroll-proportion="0.254717" />
+        <state line="15" column="51" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
