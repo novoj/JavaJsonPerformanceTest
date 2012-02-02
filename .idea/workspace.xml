@@ -2,37 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a38f1d0a-db0d-4bb2-83af-b3e60ff20fae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_api_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_collectionschema_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_json_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_runtime_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_flexjson_flexjson_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_7_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/asm_3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/json_0_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/flexJson/FlexJsonIO.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonMarshaller/DateMarshaller.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonMarshaller/JsonMarshallerIO.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/protostuff/ProtostuffIO.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/xstream/XStreamIO.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/FlexJsonIOTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/JsonMarshallerIOTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/ProtostuffIOTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/XStreamIOTest.groovy" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_1_0_9_1.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/asm-3.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/json-0.21-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/json-0.21.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/json-smart-2.0-beta2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/Photo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonMarshaller/DateMarshaller.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonMarshaller/DateMarshaller.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/Photo.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbum.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/User.groovy" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/JsonIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/JsonIO.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/PhotoAlbumFactory.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbumFactory.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/flexJson/FlexJsonIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/flexJson/FlexJsonIO.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/gson/GsonIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/gson/GsonIO.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/jackson/JacksonIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jackson/JacksonIO.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonLib/DateJsonBeanProcessor.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonLib/DateJsonBeanProcessor.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonLib/DateJsonValueProcessor.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonLib/DateJsonValueProcessor.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonLib/JsonLibIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonLib/JsonLibIO.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonMarshaller/JsonMarshallerIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonMarshaller/JsonMarshallerIO.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonSmart/JsonSmartIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonSmart/JsonSmartIO.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/protostuff/ProtostuffIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/protostuff/ProtostuffIO.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/xstream/XStreamIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/xstream/XStreamIO.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/AbstractPerformanceTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/AbstractPerformanceTest.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/FlexJsonIOTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/FlexJsonIOTest.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/GsonIOTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/GsonIOTest.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/JacksonIOTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/JacksonIOTest.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/JsonLibIOTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/JsonLibIOTest.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/JsonMarshallerIOTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/JsonMarshallerIOTest.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/JsonSmartIOTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/JsonSmartIOTest.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/ProtostuffIOTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/ProtostuffIOTest.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/XStreamIOTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/XStreamIOTest.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json_performance_test.iml" afterPath="$PROJECT_DIR$/json_performance_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonSmart/JsonSmartIO.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonSmart/JsonSmartIO.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/Photo.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/Photo.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbum.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbum.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/User.groovy" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/User.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/AbstractPerformanceTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/AbstractPerformanceTest.groovy" />
     </list>
     <ignored path="JavaJsonPerformanceTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,62 +97,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="JsonSmartIO.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonSmart/JsonSmartIO.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="21" selection-start="2549" selection-end="2549" vertical-scroll-proportion="0.0">
+            <state line="14" column="39" selection-start="416" selection-end="416" vertical-scroll-proportion="0.254717">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProtostuffIO.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/protostuff/ProtostuffIO.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="66" selection-start="573" selection-end="573" vertical-scroll-proportion="0.4033019">
-              <folding>
-                <element signature="e#35#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonIOUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/dyuproject/protostuff/protostuff-json/1.0.4/protostuff-json-1.0.4-sources.jar!/com/dyuproject/protostuff/JsonIOUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#22352#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReaderBasedParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-lgpl/1.9.4/jackson-core-lgpl-1.9.4-sources.jar!/org/codehaus/jackson/impl/ReaderBasedParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="493" column="0" selection-start="15579" selection-end="15579" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractPerformanceTest.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/novoj/json/gson/AbstractPerformanceTest.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="62" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProtostuffIOTest.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/novoj/json/gson/ProtostuffIOTest.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="16" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#29#67#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -169,22 +121,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/xstream/XStreamIO.groovy" />
-        <option value="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/XStreamIOTest.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonMarshaller/JsonMarshallerIO.groovy" />
-        <option value="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/JsonMarshallerIOTest.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonMarshaller/DateMarshaller.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/User.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/Photo.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbum.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonSimple/JsonSimpleIO.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonSmart/JsonSmartIO.groovy" />
         <option value="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/FlexJsonIOTest.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/flexJson/FlexJsonIO.groovy" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/ProtostuffIOTest.groovy" />
-        <option value="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/AbstractPerformanceTest.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/protostuff/ProtostuffIO.groovy" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/AbstractPerformanceTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonMarshaller/DateMarshaller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/flexJson/FlexJsonIO.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonSmart/JsonSmartIO.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/Photo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/User.java" />
       </list>
     </option>
   </component>
@@ -242,161 +194,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaJsonPerformanceTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaJsonPerformanceTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaJsonPerformanceTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaJsonPerformanceTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaJsonPerformanceTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaJsonPerformanceTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaJsonPerformanceTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaJsonPerformanceTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaJsonPerformanceTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaJsonPerformanceTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaJsonPerformanceTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protostuff" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaJsonPerformanceTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaJsonPerformanceTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flexJson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -443,28 +240,316 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transformer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transformer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transformer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xstream" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transformer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsonSmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transformer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jackson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="222" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="229" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
-    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="236" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="236" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="910" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="915" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="231" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="225" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="project.validation" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -477,20 +562,80 @@
       <recent name="org.novoj.json.jsonSimple" />
       <recent name="org.novoj.json.jsonMarshaller" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.novoj.json.transformer" />
+      <recent name="org.novoj.json" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProtostuffIOTest.testDeserializePhotoAlbum">
+  <component name="RunManager" selected="JUnit.ProtostuffIOTest">
+    <configuration default="false" name="JsonLibIOTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.novoj.json.transformer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="json_performance_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.novoj.json.transformer" />
+      <option name="MAIN_CLASS_NAME" value="org.novoj.json.transformer.JsonLibIOTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JsonMarshallerIOTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.novoj.json.transformer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="json_performance_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.novoj.json.transformer" />
+      <option name="MAIN_CLASS_NAME" value="org.novoj.json.transformer.JsonMarshallerIOTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="JsonSmartIOTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
-          <option name="PATTERN" value="org.novoj.json.gson.*" />
+          <option name="PATTERN" value="org.novoj.json.transformer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="json_performance_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.novoj.json.gson" />
-      <option name="MAIN_CLASS_NAME" value="org.novoj.json.gson.JsonSmartIOTest" />
+      <option name="PACKAGE_NAME" value="org.novoj.json.transformer" />
+      <option name="MAIN_CLASS_NAME" value="org.novoj.json.transformer.JsonSmartIOTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -507,18 +652,18 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="FlexJsonIOTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="XStreamIOTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
-          <option name="PATTERN" value="org.novoj.json.gson.*" />
+          <option name="PATTERN" value="org.novoj.json.transformer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="json_performance_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.novoj.json.gson" />
-      <option name="MAIN_CLASS_NAME" value="org.novoj.json.gson.FlexJsonIOTest" />
+      <option name="PACKAGE_NAME" value="org.novoj.json.transformer" />
+      <option name="MAIN_CLASS_NAME" value="org.novoj.json.transformer.XStreamIOTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -531,60 +676,22 @@
       </option>
       <envs />
       <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FlexJsonIOTest.testDeserializePhotoAlbum" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.novoj.json.gson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="json_performance_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.novoj.json.gson" />
-      <option name="MAIN_CLASS_NAME" value="org.novoj.json.gson.FlexJsonIOTest" />
-      <option name="METHOD_NAME" value="testDeserializePhotoAlbum" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
     <configuration default="false" name="ProtostuffIOTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
-          <option name="PATTERN" value="org.novoj.json.gson.*" />
+          <option name="PATTERN" value="org.novoj.json.transformer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="json_performance_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.novoj.json.gson" />
-      <option name="MAIN_CLASS_NAME" value="org.novoj.json.gson.ProtostuffIOTest" />
+      <option name="PACKAGE_NAME" value="org.novoj.json.transformer" />
+      <option name="MAIN_CLASS_NAME" value="org.novoj.json.transformer.ProtostuffIOTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -598,40 +705,6 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ProtostuffIOTest.testDeserializePhotoAlbum" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.novoj.json.gson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="json_performance_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.novoj.json.gson" />
-      <option name="MAIN_CLASS_NAME" value="org.novoj.json.gson.ProtostuffIOTest" />
-      <option name="METHOD_NAME" value="testDeserializePhotoAlbum" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -715,12 +788,41 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.JsonSmartIOTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FlexJsonIOTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FlexJsonIOTest.testDeserializePhotoAlbum" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ProtostuffIOTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ProtostuffIOTest.testDeserializePhotoAlbum" />
+    <configuration default="false" name="org.novoj.json.transformer.gson in json_performance_test" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.novoj.json.transformer.gson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="json_performance_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="org.novoj.json.transformer.gson" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-Xmx32m -server" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.JsonLibIOTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.JsonMarshallerIOTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.JsonSmartIOTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.XStreamIOTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ProtostuffIOTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.org.novoj.json.transformer.gson in json_performance_test" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -742,6 +844,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="a38f1d0a-db0d-4bb2-83af-b3e60ff20fae" name="Default" comment="" />
       <created>1327783217868</created>
       <updated>1327783217868</updated>
     </task>
@@ -749,29 +852,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="30" width="1682" height="997" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39977092" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.67124856" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6701031" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6701031" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6701031" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24877451" sideWeight="0.4100802" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5899198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -831,124 +934,84 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/flexJson/FlexJsonIO.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/JsonMarshallerIOTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="892" selection-end="892" vertical-scroll-proportion="0.7004717">
-          <folding>
-            <element signature="e#33#65#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="12" column="59" selection-start="419" selection-end="419" vertical-scroll-proportion="0.23349057" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbumFactory.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="21" selection-start="2549" selection-end="2549" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/novoj/json/gson/ProtostuffIOTest.groovy">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2-sources.jar!/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="16" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#29#67#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/novoj/json/gson/AbstractPerformanceTest.groovy">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2-sources.jar!/com/thoughtworks/xstream/XStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="62" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="292" column="11" selection-start="12623" selection-end="12623" vertical-scroll-proportion="0.35357141" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dyuproject/protostuff/protostuff-json/1.0.4/protostuff-json-1.0.4.jar!/com/dyuproject/protostuff/JsonIOUtil.class">
+    <entry file="jar://$PROJECT_DIR$/lib/json-smart-2.0-beta2.jar!/net/minidev/json/mapper/AMapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="27" selection-start="2752" selection-end="2752" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="42" selection-start="113" selection-end="113" vertical-scroll-proportion="0.038297873" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-all/1.8.2/groovy-all-1.8.2-sources.jar!/org/codehaus/groovy/runtime/callsite/CallSiteArray.java">
+    <entry file="jar://$PROJECT_DIR$/lib/json-smart-2.0-beta2.jar!/net/minidev/json/parser/JSONStringParser.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="3158" selection-end="3158" vertical-scroll-proportion="0.19202898">
-          <folding />
-        </state>
+        <state line="32" column="55" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.34893617" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-all/1.8.2/groovy-all-1.8.2-sources.jar!/org/codehaus/groovy/runtime/callsite/AbstractCallSite.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/xstream/XStreamIO.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="0" selection-start="6087" selection-end="6087" vertical-scroll-proportion="0.19018404">
-          <folding />
-        </state>
+        <state line="17" column="23" selection-start="504" selection-end="504" vertical-scroll-proportion="0.496063" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-lgpl/1.9.4/jackson-core-lgpl-1.9.4-sources.jar!/org/codehaus/jackson/JsonToken.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/ProtostuffIOTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="4" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.33266532">
-          <folding />
-        </state>
+        <state line="12" column="6" selection-start="365" selection-end="365" vertical-scroll-proportion="0.35433072" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-lgpl/1.9.4/jackson-core-lgpl-1.9.4-sources.jar!/org/codehaus/jackson/JsonFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/protostuff/ProtostuffIO.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="3155" selection-end="3155" vertical-scroll-proportion="0.19575472">
-          <folding />
-        </state>
+        <state line="20" column="21" selection-start="598" selection-end="598" vertical-scroll-proportion="0.56692916" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-lgpl/1.9.4/jackson-core-lgpl-1.9.4-sources.jar!/org/codehaus/jackson/JsonParser.java">
+    <entry file="jar://$PROJECT_DIR$/lib/json-smart-2.0-beta2.jar!/net/minidev/json/annotate/JsonSmartAnnotation.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="0" selection-start="8716" selection-end="8716" vertical-scroll-proportion="0.19401197">
-          <folding />
-        </state>
+        <state line="7" column="18" selection-start="327" selection-end="327" vertical-scroll-proportion="0.22360249" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-lgpl/1.9.4/jackson-core-lgpl-1.9.4-sources.jar!/org/codehaus/jackson/impl/ReaderBasedParser.java">
+    <entry file="jar://$PROJECT_DIR$/lib/json-smart-2.0-beta2.jar!/net/minidev/json/JSONValue.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="493" column="0" selection-start="15579" selection-end="15579" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="13" selection-start="154" selection-end="154" vertical-scroll-proportion="0.15319149" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dyuproject/protostuff/protostuff-json/1.0.4/protostuff-json-1.0.4-sources.jar!/com/dyuproject/protostuff/JsonIOUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#22352#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="22" column="51" selection-start="638" selection-end="638" vertical-scroll-proportion="0.54527557" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/JsonIO.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/model/Photo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="43" selection-start="62" selection-end="62" vertical-scroll-proportion="0.04245283">
-          <folding />
-        </state>
+        <state line="27" column="53" selection-start="818" selection-end="818" vertical-scroll-proportion="0.72244096" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dyuproject/protostuff/protostuff-runtime/1.0.4/protostuff-runtime-1.0.4.jar!/com/dyuproject/protostuff/runtime/RuntimeSchema.class">
+    <entry file="jar://$PROJECT_DIR$/lib/json-smart-2.0-beta2.jar!/net/minidev/json/annotate/JsonIgnore.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="58" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="67" selection-start="504" selection-end="504" vertical-scroll-proportion="0.22222222" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dyuproject/protostuff/protostuff-runtime/1.0.4/protostuff-runtime-1.0.4-sources.jar!/com/dyuproject/protostuff/runtime/RuntimeSchema.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="545" column="41" selection-start="18199" selection-end="18199" vertical-scroll-proportion="0.8726415">
-          <folding />
-        </state>
+        <state line="16" column="45" selection-start="461" selection-end="461" vertical-scroll-proportion="0.21226415" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/protostuff/ProtostuffIO.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonSmart/JsonSmartIO.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="66" selection-start="573" selection-end="573" vertical-scroll-proportion="0.4033019">
-          <folding>
-            <element signature="e#35#78#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="14" column="39" selection-start="416" selection-end="416" vertical-scroll-proportion="0.254717" />
       </provider>
     </entry>
   </component>
@@ -992,7 +1055,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.4</last-edited>
+          <last-edited>$project_jdk_name$</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1029,7 +1092,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>asm-3.3.1</last-edited>
+          <last-edited>Maven: org.codehaus.groovy:groovy-all:1.8.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
