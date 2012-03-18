@@ -2,12 +2,18 @@ package org.novoj.json.model;
 
 import com.twolattes.json.Entity;
 import com.twolattes.json.Value;
+import de.odysseus.staxon.json.jaxb.JsonXML;
 import net.minidev.json.annotate.JsonIgnore;
 import org.novoj.json.transformer.jsonMarshaller.DateMarshaller;
 
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Date;
 import java.util.List;
 
+@JsonXML(
+    multiplePaths = "/photos"
+)
+@XmlRootElement
 @Entity
 public class PhotoAlbum {
 	@Value private String name;

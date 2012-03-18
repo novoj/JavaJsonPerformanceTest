@@ -34,6 +34,9 @@
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.7.9" level="project" />
     <orderEntry type="library" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.4" level="project" />
     <orderEntry type="library" name="Maven: com.dyuproject.protostuff:protostuff-collectionschema:1.0.4" level="project" />
+    <orderEntry type="library" name="Maven: de.odysseus.staxon:staxon:0.9.5" level="project" />
+    <orderEntry type="library" name="Maven: de.odysseus.staxon:staxon-jackson:0.9.5" level="project" />
+    <orderEntry type="library" name="Maven: de.odysseus.staxon:staxon-gson:0.9.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.7" level="project" />
   </component>
 </module>

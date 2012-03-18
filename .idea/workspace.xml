@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a38f1d0a-db0d-4bb2-83af-b3e60ff20fae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_staxon_staxon_0_9_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_staxon_staxon_gson_0_9_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_staxon_staxon_jackson_0_9_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/ConfigurableJsonXMLBinder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/ConfigurableJsonXMLMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/StaxonOverGsonIO.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/StaxonOverJacksonIO.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/StaxonOverJsonStreamIO.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/StaxonOverGsonIOTest.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/StaxonOverJacksonIOTest.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/StaxonOverJsonStreamIOTest.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json_performance_test.iml" afterPath="$PROJECT_DIR$/json_performance_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbum.java" afterPath="$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbum.java" />
     </list>
     <ignored path="JavaJsonPerformanceTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,19 +78,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JsonSmartIO.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonSmart/JsonSmartIO.groovy">
+      <file leaf-file-name="StaxonOverJsonStreamIOTest.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/StaxonOverJsonStreamIOTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="51" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="13" column="72" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#36#81#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.txt">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="83" column="40" selection-start="3062" selection-end="3062" vertical-scroll-proportion="0.798">
               <folding />
             </state>
           </provider>
@@ -98,22 +113,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/Photo.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbum.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonSimple/JsonSimpleIO.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonSmart/JsonSmartIO.groovy" />
-        <option value="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/FlexJsonIOTest.groovy" />
-        <option value="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/ProtostuffIOTest.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/protostuff/ProtostuffIO.groovy" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/org/novoj/json/gson/AbstractPerformanceTest.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/jsonMarshaller/DateMarshaller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/flexJson/FlexJsonIO.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/Photo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonSmart/JsonSmartIO.groovy" />
         <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/StaxonIO.groovy" />
+        <option value="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/StaxonIOTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbum.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/StaxonOverJacksonIOTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/StaxonOverJacksonIO.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/ConfigurableJsonXMLMapper.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/ConfigurableJsonXMLBinder.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/ConfigurableJsonXMLMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/ConfigurableJsonXMLBinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/StaxonOverGsonIO.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/StaxonOverJsonStreamIO.groovy" />
+        <option value="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/StaxonOverGsonIOTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/StaxonOverJsonStreamIOTest.groovy" />
       </list>
     </option>
   </component>
@@ -140,9 +155,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="30" />
-    <option name="width" value="1680" />
-    <option name="height" value="996" />
+    <option name="width" value="1922" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -170,53 +186,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaJsonPerformanceTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json_performance_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaJsonPerformanceTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json_performance_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org.novoj.json" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaJsonPerformanceTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json_performance_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org.novoj.json" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsonLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -403,6 +372,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="staxon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transformer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="jsonSmart" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -487,20 +490,67 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json_performance_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json_performance_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.novoj.json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaJsonPerformanceTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json_performance_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.novoj.json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsonLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="SDKs" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="222" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="229" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="222" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="229" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="236" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="236" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="910" />
@@ -515,8 +565,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
@@ -524,27 +574,28 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.novoj.json.transformer.staxon" />
       <recent name="org.novoj.json.gson" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.novoj.json.transformer" />
+      <recent name="org.novoj.json.transformer.staxon" />
       <recent name="org.novoj.json.gson" />
       <recent name="org.novoj.json.protostuff" />
       <recent name="org.novoj.json.flexJson" />
-      <recent name="org.novoj.json.jsonSimple" />
-      <recent name="org.novoj.json.jsonMarshaller" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.novoj.json.transformer" />
       <recent name="org.novoj.json" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProtostuffIOTest">
-    <configuration default="false" name="JsonLibIOTest" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.StaxonOverJsonStreamIOTest">
+    <configuration default="false" name="StaxonOverJacksonIOTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.novoj.json.transformer.*" />
@@ -555,9 +606,43 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.novoj.json.transformer" />
-      <option name="MAIN_CLASS_NAME" value="org.novoj.json.transformer.JsonLibIOTest" />
+      <option name="MAIN_CLASS_NAME" value="org.novoj.json.transformer.StaxonOverJacksonIOTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="org.novoj.json.transformer in json_performance_test" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.novoj.json.transformer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="json_performance_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.novoj.json.transformer" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -572,7 +657,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="JsonMarshallerIOTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="StaxonOverJacksonIOTest.testSerializePhotoAlbum" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.novoj.json.transformer.*" />
@@ -583,9 +668,41 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.novoj.json.transformer" />
-      <option name="MAIN_CLASS_NAME" value="org.novoj.json.transformer.JsonMarshallerIOTest" />
+      <option name="MAIN_CLASS_NAME" value="org.novoj.json.transformer.StaxonOverJacksonIOTest" />
+      <option name="METHOD_NAME" value="testSerializePhotoAlbum" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="org.novoj.json in json_performance_test" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.novoj.json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="json_performance_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.novoj.json" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -600,10 +717,10 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="JsonSmartIOTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="StaxonOverJsonStreamIOTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
-          <option name="PATTERN" value="org.novoj.json.transformer.*" />
+          <option name="PATTERN" value="org.novoj.json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -611,63 +728,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.novoj.json.transformer" />
-      <option name="MAIN_CLASS_NAME" value="org.novoj.json.transformer.JsonSmartIOTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="XStreamIOTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.novoj.json.transformer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="json_performance_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.novoj.json.transformer" />
-      <option name="MAIN_CLASS_NAME" value="org.novoj.json.transformer.XStreamIOTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ProtostuffIOTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.novoj.json.transformer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="json_performance_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.novoj.json.transformer" />
-      <option name="MAIN_CLASS_NAME" value="org.novoj.json.transformer.ProtostuffIOTest" />
+      <option name="MAIN_CLASS_NAME" value="org.novoj.json.transformer.StaxonOverJsonStreamIOTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -793,12 +854,12 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.JsonLibIOTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.JsonMarshallerIOTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.JsonSmartIOTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.XStreamIOTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ProtostuffIOTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.org.novoj.json.transformer.gson in json_performance_test" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.org.novoj.json.transformer.gson in json_performance_test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.StaxonOverJacksonIOTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.org.novoj.json.transformer in json_performance_test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StaxonOverJacksonIOTest.testSerializePhotoAlbum" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.org.novoj.json in json_performance_test" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.StaxonOverJsonStreamIOTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -827,7 +888,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1680" height="996" extended-state="0" />
+    <frame x="-1" y="30" width="1922" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -835,19 +896,19 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.67124856" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6710963" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6701031" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24846625" sideWeight="0.4100802" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5899198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.6701031" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21581197" sideWeight="0.5813953" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41860464" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -910,86 +971,124 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbumFactory.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/ConfigurableJsonXMLBinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2-sources.jar!/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2-sources.jar!/com/thoughtworks/xstream/XStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="292" column="11" selection-start="12623" selection-end="12623" vertical-scroll-proportion="0.35357141" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/json-smart-2.0-beta2.jar!/net/minidev/json/mapper/AMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="42" selection-start="113" selection-end="113" vertical-scroll-proportion="0.038297873" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/json-smart-2.0-beta2.jar!/net/minidev/json/parser/JSONStringParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="55" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.34893617" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/xstream/XStreamIO.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="23" selection-start="504" selection-end="504" vertical-scroll-proportion="0.496063" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/ProtostuffIOTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="6" selection-start="365" selection-end="365" vertical-scroll-proportion="0.35433072" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/protostuff/ProtostuffIO.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="598" selection-end="598" vertical-scroll-proportion="0.56692916" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/json-smart-2.0-beta2.jar!/net/minidev/json/annotate/JsonSmartAnnotation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="327" selection-end="327" vertical-scroll-proportion="0.22360249" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/json-smart-2.0-beta2.jar!/net/minidev/json/JSONValue.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="154" selection-end="154" vertical-scroll-proportion="0.15319149" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="51" selection-start="638" selection-end="638" vertical-scroll-proportion="0.54527557" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/model/Photo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="53" selection-start="818" selection-end="818" vertical-scroll-proportion="0.72244096" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/json-smart-2.0-beta2.jar!/net/minidev/json/annotate/JsonIgnore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="67" selection-start="504" selection-end="504" vertical-scroll-proportion="0.22222222" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/model/PhotoAlbum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="45" selection-start="461" selection-end="461" vertical-scroll-proportion="0.21226415" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/jsonSmart/JsonSmartIO.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="51" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/StaxonOverJacksonIOTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="13" column="59" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/ConfigurableJsonXMLMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="59" selection-start="757" selection-end="757" vertical-scroll-proportion="0.27272728">
+          <folding>
+            <element signature="method#setStreamFactoryFactory#0;class#ConfigurableJsonXMLMapper#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/odysseus/staxon/staxon-gson/0.9.5/staxon-gson-0.9.5.jar!/de/odysseus/staxon/json/stream/gson/GsonStreamFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="74" selection-start="234" selection-end="234" vertical-scroll-proportion="0.087804876">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/StaxonOverGsonIO.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="68" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#43#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/odysseus/staxon/staxon/0.9.5/staxon-0.9.5-sources.jar!/de/odysseus/staxon/json/stream/JsonStreamFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="22" selection-start="1294" selection-end="1294" vertical-scroll-proportion="-2.034965">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/odysseus/staxon/staxon/0.9.5/staxon-0.9.5-sources.jar!/de/odysseus/staxon/json/JsonXMLInputFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="32" selection-start="3065" selection-end="3065" vertical-scroll-proportion="0.6924829">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/odysseus/staxon/staxon/0.9.5/staxon-0.9.5-sources.jar!/de/odysseus/staxon/json/jaxb/JsonXMLBinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="28" selection-start="2592" selection-end="2592" vertical-scroll-proportion="0.6786127">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/odysseus/staxon/staxon/0.9.5/staxon-0.9.5-sources.jar!/de/odysseus/staxon/json/jaxb/JsonXMLMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="25" selection-start="1972" selection-end="1972" vertical-scroll-proportion="0.6537585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/odysseus/staxon/staxon/0.9.5/staxon-0.9.5-sources.jar!/de/odysseus/staxon/json/stream/impl/JsonStreamFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="34" selection-start="1158" selection-end="1179" vertical-scroll-proportion="0.16400911">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/odysseus/staxon/staxon-jackson/0.9.5/staxon-jackson-0.9.5.jar!/de/odysseus/staxon/json/stream/jackson/JacksonStreamFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="3509" selection-start="240" selection-end="1452" vertical-scroll-proportion="0.47142857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/StaxonOverJacksonIO.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="74" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/novoj/json/transformer/staxon/StaxonOverJsonStreamIO.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="83" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#43#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/StaxonOverGsonIOTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#36#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/novoj/json/transformer/StaxonOverJsonStreamIOTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="72" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#36#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="40" selection-start="3062" selection-end="3062" vertical-scroll-proportion="0.798">
           <folding />
         </state>
       </provider>
