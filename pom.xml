@@ -71,17 +71,17 @@
         <dependency>
             <groupId>de.odysseus.staxon</groupId>
             <artifactId>staxon</artifactId>
-            <version>0.9.5</version>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>de.odysseus.staxon</groupId>
             <artifactId>staxon-jackson</artifactId>
-            <version>0.9.5</version>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>de.odysseus.staxon</groupId>
             <artifactId>staxon-gson</artifactId>
-            <version>0.9.5</version>
+            <version>1.0</version>
         </dependency>
 
         <dependency>
