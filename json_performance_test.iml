@@ -37,6 +37,7 @@
     <orderEntry type="library" name="Maven: de.odysseus.staxon:staxon:1.0" level="project" />
     <orderEntry type="library" name="Maven: de.odysseus.staxon:staxon-jackson:1.0" level="project" />
     <orderEntry type="library" name="Maven: de.odysseus.staxon:staxon-gson:1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.1.23" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.7" level="project" />
   </component>
 </module>
