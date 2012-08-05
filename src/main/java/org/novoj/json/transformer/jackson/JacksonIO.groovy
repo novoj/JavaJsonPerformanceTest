@@ -1,6 +1,6 @@
 package org.novoj.json.transformer.jackson
 
-import org.codehaus.jackson.map.ObjectMapper
+import com.fasterxml.jackson.databind.ObjectMapper
 import org.novoj.json.model.PhotoAlbum
 import org.novoj.json.transformer.JsonIO
 
